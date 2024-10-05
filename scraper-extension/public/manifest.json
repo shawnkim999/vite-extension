@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "My First Extension",
+    "description": "This is a simple Chrome extension.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+  }
